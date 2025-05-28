@@ -3,7 +3,6 @@
 Welcome to the **Diabetes Prediction Project**! This machine learning project aims to predict whether an individual has diabetes based on medical diagnostic data. We use the **Random Forest Classifier**, a powerful ensemble learning algorithm, for classification.
 
 ---
-
 ## 📁 Dataset Overview
 
 - **File**: `diabetes.csv`
