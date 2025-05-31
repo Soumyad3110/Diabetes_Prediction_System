@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='diabetes_prediction_project',
+    name='Diabetes_prediction_System',
     version='0.1',
     packages=find_packages(include=['src', 'src.*']),
     install_requires=[
@@ -17,7 +17,7 @@ setup(
             'diabetes-predict=main:main'
         ]
     },
-    author='Your Name',
+    author='soumyadeep Dutta',
     description='Diabetes prediction using machine learning',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
