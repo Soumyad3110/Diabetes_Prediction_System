@@ -1,25 +1,28 @@
 # main.py
 
 import yaml
+from src import EDA
 from src.data_loader import load_data
 from src.model import train_random_forest
 from src.evaluation import evaluate_model
 from src.visualization import plot_confusion_matrix, plot_roc_curve
 
-
 # Load configuration
 with open("config.yaml", "r") as f:
     config = yaml.safe_load(f)
-    
+
 with open("environment.yml", "r") as f:
     env_config = yaml.safe_load(f)
-    
+
 # Suppress warnings
 import warnings
 warnings.filterwarnings("ignore")
 
-# Load data
+# Loading data 
 df = load_data("C:/Users/KIIT/Downloads/diabetes.csv")
+
+# Perform EDA
+EDA.perform_eda("C:/Users/KIIT/Downloads/diabetes.csv")
 
 # Features and labels
 target_col = "Outcome"
