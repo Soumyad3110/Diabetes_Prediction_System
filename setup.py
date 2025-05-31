@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Diabetes_prediction_System',
+    name='Diabetes_Prediction_System',
     version='0.1',
     packages=find_packages(include=['src', 'src.*']),
     install_requires=[
