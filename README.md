@@ -5,7 +5,17 @@ Welcome to the **Diabetes Prediction Project**! This machine learning project ai
 ---
 ## 📁 Dataset Overview
 
-- **File**: `diabetes.csv`
+> Project Structure
+- `README.md`: Explains the details of the project
+- `main.py`: Run the pipeline
+- `src/`: Source code
+- `data/`: Dataset file (diabetes.csv)
+- `notebooks/`: Jupyter notebooks for exploration
+- `results.ipynb`: Confusion matrix, ROC curve, EDA plots
+- `setup.py`: Packaging the project as a module.
+- `config.yaml`: Settings and paths
+- `environment.yml`: If using conda. Alternative to requirements.txt.
+- `.gitignore`: Lists files/folders Git should ignore (e.g., __pycache__, .ipynb_checkpoints/)
 - **Source**: Pima Indians Diabetes Database
 - **Samples**: 768
 - **Features**: 8 medical attributes
